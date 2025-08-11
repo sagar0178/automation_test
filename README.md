@@ -14,7 +14,6 @@ making it easy to switch settings without changing code.
 - Easily extendable to support more browsers and test cases
 
 ---
-
 ## Getting Started
 
 ### Prerequisites
@@ -29,15 +28,31 @@ making it easy to switch settings without changing code.
 
    ```bash
    git clone https://github.com/sagar0178/automation_test.git
+   cd automation_test
  
-2. **open the Terminal and ron**
+2. **Create a virtual environment**
 
-    `python -m pytest`
+`python -m venv venv`
 
-3. Dependency updates-Freeze requirements.txt before commit operation use following command for this
+3. **Activate the virtual environmen**t
 
-    `pip freeze > requirements.txt`
+   _**Windows (PowerShell)**_
 
-4. whenever you took a pull, and want to install the dependencies from requirements.txt, use following command
+`venv\Scripts\Activate.ps1`
 
-    `pip install -r requirements.txt`
+   _**Mac/Linux**_
+
+`source venv/bin/activate`
+
+4. **Install dependencies**
+
+`pip install -r requirements.txt`
+
+5. **Run Tests**
+
+`pytest`
+
+   OR
+
+`python -m pytest`
+

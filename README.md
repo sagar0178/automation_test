@@ -28,7 +28,7 @@ making it easy to switch settings without changing code.
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/sagar0178/automation_test.git
    cd yourproject
 2. **open the Terminal and ron**
 

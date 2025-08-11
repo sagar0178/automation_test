@@ -31,26 +31,30 @@ making it easy to switch settings without changing code.
    cd automation_test
  
 2. **Create a virtual environment**
-
-`python -m venv venv`
+   ```bash
+   python -m venv venv
 
 3. **Activate the virtual environmen**t
 
    _**Windows (PowerShell)**_
+   ```bash
 
-`venv\Scripts\Activate.ps1`
+   venv\Scripts\Activate.ps1
 
    _**Mac/Linux**_
+   
 
-`source venv/bin/activate`
+   source venv/bin/activate
 
 4. **Install dependencies**
+   ```bash
 
-`pip install -r requirements.txt`
+   pip install -r requirements.txt
 
 5. **Run Tests**
+   ```bash
 
-`pytest`
+   pytest
 
    OR
 

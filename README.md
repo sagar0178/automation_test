@@ -29,34 +29,34 @@ making it easy to switch settings without changing code.
    ```bash
    git clone https://github.com/sagar0178/automation_test.git
    cd automation_test
- 
+
 2. **Create a virtual environment**
    ```bash
    python -m venv venv
 
-3. **Activate the virtual environmen**t
+3. **Activate the virtual environment**
 
    _**Windows (PowerShell)**_
-   ```bash
-
-   venv\Scripts\Activate.ps1
-
-   _**Mac/Linux**_
    
 
-   source venv/bin/activate
+    venv\Scripts\Activate.ps1
 
-4. **Install dependencies**
-   ```bash
 
-   pip install -r requirements.txt
+  **MAC/Linux**
+ 
+      source venv/bin/activate
+
+4. **Install Dependencies**
+
+         pip install -r requirements.txt
+   
 
 5. **Run Tests**
-   ```bash
 
-   pytest
+         pytest 
 
-   OR
+**OR**
 
-`python -m pytest`
+      python -m pytest
 
+---
